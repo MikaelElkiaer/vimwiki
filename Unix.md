@@ -6,3 +6,9 @@
 ```
 :set ff=unix
 ```
+
+## Remove ansi codes
+```
+sed -r "s/\x1b\[([0-9]{1,2}(;[0-9]{1,2})?)?m//g" < ansi.log > noansi.log
+```
+
