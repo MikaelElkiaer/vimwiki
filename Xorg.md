@@ -4,3 +4,13 @@
 ```
 xprop WM_CLASS
 ```
+
+### Disabling caps lock
+```
+# disable
+setxkbmap -option ctrl:nocaps
+
+# enable
+setxkbmap -option
+```
+
